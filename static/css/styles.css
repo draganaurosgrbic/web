@@ -1,0 +1,486 @@
+/*-------------------------Prikaz-------------------------*/
+
+select{
+	min-width: 100px;
+}
+
+select.pretraga{
+	width: 150px;
+}
+
+textarea{
+	min-width: 100px;
+	min-height: 50px;
+	max-width: 200px;
+	max-height: 100px;
+}
+
+body {
+	background: rgb(33,36,0);
+	background: linear-gradient(56deg, rgba(36,0,0,0.599362779291404) 0%, rgba(252,255,214,0.7) 35%, rgba(0,212,255,0.85) 100%);
+}
+
+div.main {
+	width: 100%;
+	height: 100%;
+	
+	margin: 2%;
+	margin-left: 0%;
+	margin-bottom: 1%;
+	
+	border-top: 2px inset lightgreen;
+	border-left: 2px inset lightgreen;
+	border-bottom: 2px outset green;
+	border-right: 2px outset green;
+	
+	background-color: rgba(208,255,204,0.4);
+}
+
+div.left {
+	float: left;
+	
+	width: 60%;
+	height: 100%;
+	
+	margin: 1.5%;
+	margin-right: 0%;
+	
+	overflow: auto;
+}
+
+div.right {
+	float: right;
+	
+	width: 35%;
+	height: 95%;
+
+	margin: 1.5%;
+	margin-left: 0%;
+	
+	overflow: auto;
+	
+	border-top: 1.5px inset #f5ffd0;
+	border-bottom: 1.5px inset #b9bd11;
+}
+
+div.right table {
+	margin: auto;
+}
+
+div.right table .left {
+	text-align: right;
+}
+
+.right_menu {
+	width: 100%;
+	border: 3px inset #d2ff80;
+	background-color: rgba(234,255,232,0.4);	
+}
+
+.right_menu > tr {
+	border: 3px outset #ffff80;	
+}
+
+.right_menu td, th {
+	border: none;
+}
+
+/*---------------------------Izmena---------------------------*/
+
+.izmena {
+	width: 60%;
+	height: 75%;
+	
+	margin: auto;
+	
+	border-top: 2px inset lightgreen;
+	border-left: 2px inset lightgreen;
+	border-bottom: 2px outset green;
+	border-right: 2px outset green;
+	
+	background-color: rgba(208,255,204,0.4);
+
+	text-align: center;
+}
+
+.izmena > button {
+	margin-top: 10%;
+}
+
+.izmena table {
+	margin: auto;
+	margin-top: 5%;
+}
+
+.izmena td {
+	border: none;		
+	min-width: 200px;
+}
+
+.izmena td.left {
+	text-align: right;
+}
+
+.izmena td.right {
+	text-align: left;
+}
+
+/*---------------------------Dodavanje---------------------------*/
+
+.dodavanje div {
+	width: 60%;
+	height: 75%;
+	
+	margin: 2%;
+	margin-left: 25%;
+	margin-right: 25%;
+	
+	border-top: 2px inset lightgreen;
+	border-left: 2px inset lightgreen;
+	border-bottom: 2px outset green;
+	border-right: 2px outset green;
+	
+	background-color: rgba(208,255,204,0.4);
+
+	text-align: center;
+}
+
+.dodavanje table {
+	margin: auto;
+	margin-top: 12.5%;
+	margin-bottom: 12.5%;
+	border-style: none;
+}
+
+.dodavanje td {
+	border: none;		
+	min-width: 200px;
+}
+
+.dodavanje td.left {
+	text-align: right;
+}
+
+.dodavanje td.right {
+	text-align: left;
+}
+
+/*---------------------------Generalno---------------------------*/
+
+img {
+	max-width: 150px;
+	max-height: 150px;
+}
+
+h1{
+	color: #ffdb2f;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black, 1px 1px 2px black, 0 0 25px #3737ff, 0 0 5px #0000b3;
+	text-align: center;
+}
+
+th, td{
+	min-width: 150px;
+	text-align: center;
+}
+
+table {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+table.data {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+table.data tr {
+	background-color: white;
+}
+
+table.data tr:hover{
+	background-color: #ffff99;
+	cursor: pointer;
+}
+
+th, td{
+	font-size: 1em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+}
+
+th{
+	font-size: 1.1em;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #7ddf6c;
+    color: #ffffff;
+}
+
+input, select, textarea{
+	/*position: absolute;
+	left: 150px;*/
+}
+
+/*-------------------------Login-------------------------*/
+
+.login {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+
+.login h1 {
+	text-align: center;
+}
+
+.login table {
+	margin: auto;
+	border-style: none;
+}
+
+.login td {
+	border: none;		
+	min-width: 200px;
+}
+
+.login td.left {
+	text-align: right;
+}
+
+/*-------------------------Profil-------------------------*/
+
+.profil {
+	text-align: center;
+	margin: auto;
+	width: 50%;
+}
+
+.profil h1 {
+	text-align: center;
+}
+
+.profil table {
+	margin: auto;
+	border-style: none;
+}
+
+.profil td {
+	border: none;		
+	min-width: 200px;
+}
+
+.profil td.left {
+	text-align: left;
+}
+
+.profil td.right {
+	text-align: right;
+}
+
+/*-------------------------Masine-------------------------*/
+
+.masine {
+	height: 100%;
+}
+
+.masine table.data {
+	margin: auto;
+}
+
+.mesecni_racun {
+	width: 75%;
+	height: 75%;
+	
+	margin: 2%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	
+	border-top: 2px inset lightgreen;
+	border-left: 2px inset lightgreen;
+	border-bottom: 2px outset green;
+	border-right: 2px outset green;
+	
+	background-color: rgba(208,255,204,0.4);
+
+	text-align: center;
+}
+
+.mesecni_racun .top {
+	width: 75%;
+	height: 70%;
+	
+	margin: 2%;
+	margin-left: 12.5%;
+	margin-right: 12.5%;
+	
+	text-align: center;
+	
+	overflow: auto;
+}
+
+.mesecni_racun .bottom {
+	height: 25%;
+	
+	margin: 2%;
+	text-align: center;
+}
+
+.mesecni_racun table {
+	width: 100%;
+}
+
+.izmena_masine {
+	width: 96%;
+	height: 95%;
+	
+	margin: 2%;
+	
+	border-top: 2px inset lightgreen;
+	border-left: 2px inset lightgreen;
+	border-bottom: 2px outset green;
+	border-right: 2px outset green;
+	
+	background-color: rgba(208,255,204,0.4);
+
+	text-align: center;
+}
+
+.izmena_masine .izmena_ui {
+	float: left;
+	
+	width: 46%;
+	height: 100%;
+	
+	margin: 2%;
+}
+
+.izmena_masine .izmena_ui > button {
+	margin-top: 10%;
+}
+
+.izmena_masine .aktivnosti {
+	float: right;
+	
+	width: 46%;
+	height: 100%;
+
+	margin: 2%;
+	margin-top: 0%;
+	margin-left: 0%;
+}
+
+.izmena_masine .aktivnosti table {
+	margin: auto;
+}
+
+.izmena_masine .aktivnosti tr {
+	background-color: white;
+}
+
+.izmena_masine .aktivnosti td {
+	font-size: 1em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+}
+
+.izmena_masine td {
+	border: none;		
+	min-width: 200px;
+}
+
+.izmena_masine td.left {
+	text-align: right;
+}
+
+.izmena_masine td.right {
+	text-align: left;
+}
+
+.izmena_masine .aktivnosti > div {
+	height: 40%;
+	margin: 2%;
+	overflow: auto;
+}
+
+/*-------------------------Organizacije-------------------------*/
+
+.izmena_organizacije {
+	width: 96%;
+	height: 95%;
+	
+	margin: 2%;
+	
+	border-top: 2px inset lightgreen;
+	border-left: 2px inset lightgreen;
+	border-bottom: 2px outset green;
+	border-right: 2px outset green;
+	
+	background-color: rgba(208,255,204,0.4);
+
+	text-align: center;
+}
+
+.izmena_organizacije .izmena_ui {
+	float: left;
+	
+	width: 46%;
+	height: 100%;
+	
+	margin: 2%;
+}
+
+.izmena_organizacije .izmena_ui textarea {
+	min-height: 50px;
+	min-width: 100px;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+.izmena_organizacije .izmena_ui button {
+	margin-top: 10%;
+}
+
+.izmena_organizacije .tabele {
+	float: right;
+	
+	width: 46%;
+	height: 100%;
+
+	margin: 2%;
+	margin-top: 0%;
+	margin-left: 0%;
+}
+
+.izmena_organizacije .tabele table {
+	margin: auto;
+}
+
+.izmena_organizacije .tabele tr {
+	background-color: white;
+}
+
+.izmena_organizacije .tabele td {
+	font-size: 1em;
+    border: 1px solid #98bf21;
+    padding: 3px 7px 2px 7px;
+}
+
+.izmena_organizacije td {
+	border: none;		
+	min-width: 200px;
+}
+
+.izmena_organizacije td.left {
+	text-align: right;
+}
+
+.izmena_organizacije td.right {
+	text-align: left;
+}
+
+.izmena_organizacije .tabele > div {
+	height: 50%;
+	margin: 2%;
+	overflow: auto;
+}
